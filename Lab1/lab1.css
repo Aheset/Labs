@@ -37,6 +37,27 @@ button{
 
 }
 
+p {
+	
+	font-family: "Monotype Corsiva", cursive;
+	font-size: 20px;
+	margin-right: 50px;
+	
+}
+
+p ol {
+	
+	font-family: "Monotype Corsiva", cursive;
+	font-size: 25px;
+}
+
+blockquote{
+	
+	font-family: "Monotype Corsiva", cursive;
+	font-size: 25px;
+
+}
+
 
 .content{
 
