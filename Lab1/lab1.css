@@ -1,0 +1,52 @@
+
+body{
+	background-image: url(grey.jpg);
+	margin: 0  0 0 0;
+}
+
+#page{
+	
+	height: 25%;
+	width: 100%;
+	float: right;
+	font-style: halvetica;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 25px;
+	background-image: url("image2.jpg");
+}
+
+
+.aside_info{
+	
+	width: 23%;
+	height: 100%;
+	float: left;
+	background-image: url("image1.jpg");
+}
+
+
+ul li{
+	list-style: none;
+	list-style-position: left;
+}
+
+button{
+	height: 10%;
+	width: 25%px;
+
+}
+
+
+.content{
+
+	height: 75%;
+	width: 70%;
+	float: bottom;
+	float: right;
+}
+
+
+.contact_details{
+	padding-left: 35px;
+}
