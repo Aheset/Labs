@@ -1,32 +1,132 @@
 
-div{
-    border: solid red;
+body{
+	background-image: url(grey.jpg);
+	margin: 0  0 0 0;
+}
+
+img{
+	max-width: 100%;
+}
+
+/*@font-face{
+	font-family: "portfolio-font";
+	src: url("Peas & Carrots.ttf");*/
+}
+
+
+
+#page{
+	
+	height: 25%;
+	width: 100%;
+	float: right;
+	font-style: halvetica;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 25px;
+	background-image: url("image1.jpg");
+}
+
+
+.aside_info{
+	
+	width: 15%;
+	height: 100%;
+	float: left;
+	background-image: url("image1.jpg");
+	
+}
+
+.contact_details{
+	padding-left: 35px;
+}
+
+
+
+ul li{
+	list-style: none;
+	list-style-position: left;
+}
+
+button{
+	height: 10%;
+	width: 25%px;
+	border-radius: 50px;
+
+}
+
+.content{
+	width: 80%;
+	height: 70%;
+
+}
+/*about page =====================================================*/
+p {
+	
+	font-family: "Monotype Corsiva", cursive;
+	font-size: 20px;
+	margin-right: 50px;	
+}
+
+p ol {
+	
+	font-family: "Monotype Corsiva", cursive;
+	font-size: 20px;
+	padding-left: 50px;
+	margin-right: 50px;
+}
+
+blockquote{
+	
+	font-family: "Monotype Corsiva", cursive;
+	font-size: 20px;
+	margin-left: 250px;
+
+}
+
+/*=================resume page=====================*/
+
+
+h3{
+	border: solid black;
+	padding-top: 250px;
+	padding-left: 300px;
+	border-bottom: solid grey;
+}
+
+.resume{
+	padding-left: 300px;
+}
+
+
+/*=====================portfolio page========================*/
+
+.thumbnails{
+	display: inline-block;
+	border: solid grey;
     width: 25%;
-    height: 25%;
-    display: inline-block;
-}
-/*
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
+    height: 35%;
+    margin: 0.5em;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
 
-li a:hover {
-    background-color: #111;
+
+@media (max-width: 600px){
+	
+	#thumbnails {
+		display: block;
+		margin: 1% auto;
+		width: 90%;
+	}
+
+	#aside_info{
+		display: none;
+	}
+
+
+	#name { 
+		font-size: 8px;
+
+	}
+	
 }
-*/
